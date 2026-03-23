@@ -1,0 +1,35 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# LangChain and RAG
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-groq>=0.0.1
+langchain-huggingface>=0.0.1
+langchain-text-splitters>=0.0.1
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+
+# Keras and TensorFlow (for disease detection)
+# IMPORTANT: Use tf-keras for compatibility with Transformers
+tensorflow>=2.13.0
+tf-keras>=2.13.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Weather and location services
+requests>=2.31.0
+streamlit-geolocation>=0.1.0
+
+# Hugging Face (for embeddings)
+huggingface-hub>=0.16.0
+

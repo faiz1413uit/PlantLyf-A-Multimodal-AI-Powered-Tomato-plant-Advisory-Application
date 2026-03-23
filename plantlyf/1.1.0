@@ -1,0 +1,127 @@
+Requirement already satisfied: langchain in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (0.2.14)
+Collecting langchain
+  Using cached langchain-1.2.0-py3-none-any.whl.metadata (4.9 kB)
+Requirement already satisfied: langchain-community in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (0.2.12)
+Collecting langchain-community
+  Using cached langchain_community-0.4.1-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: langchain-core in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (0.2.34)
+Collecting langchain-core
+  Using cached langchain_core-1.2.1-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: langchain-huggingface in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (0.0.3)
+Collecting langchain-huggingface
+  Using cached langchain_huggingface-1.2.0-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: langchain-groq in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (1.1.1)
+Collecting langgraph<1.1.0,>=1.0.2 (from langchain)
+  Using cached langgraph-1.0.5-py3-none-any.whl.metadata (7.4 kB)
+Requirement already satisfied: pydantic<3.0.0,>=2.7.4 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain) (2.12.5)
+Requirement already satisfied: jsonpatch<2.0.0,>=1.33.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (1.33)
+Collecting langsmith<1.0.0,>=0.3.45 (from langchain-core)
+  Using cached langsmith-0.4.59-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: packaging<26.0.0,>=23.2.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (24.2)
+Requirement already satisfied: pyyaml<7.0.0,>=5.3.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (6.0.3)
+Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.1.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (8.5.0)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.7.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (4.15.0)
+Requirement already satisfied: uuid-utils<1.0,>=0.12.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-core) (0.12.0)
+Requirement already satisfied: jsonpointer>=1.9 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from jsonpatch<2.0.0,>=1.33.0->langchain-core) (3.0.0)
+Collecting langgraph-checkpoint<4.0.0,>=2.1.0 (from langgraph<1.1.0,>=1.0.2->langchain)
+  Using cached langgraph_checkpoint-3.0.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting langgraph-prebuilt<1.1.0,>=1.0.2 (from langgraph<1.1.0,>=1.0.2->langchain)
+  Using cached langgraph_prebuilt-1.0.5-py3-none-any.whl.metadata (5.2 kB)
+Collecting langgraph-sdk<0.4.0,>=0.3.0 (from langgraph<1.1.0,>=1.0.2->langchain)
+  Using cached langgraph_sdk-0.3.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: xxhash>=3.5.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langgraph<1.1.0,>=1.0.2->langchain) (3.6.0)
+Collecting ormsgpack>=1.12.0 (from langgraph-checkpoint<4.0.0,>=2.1.0->langgraph<1.1.0,>=1.0.2->langchain)
+  Downloading ormsgpack-1.12.1-cp310-cp310-win_amd64.whl.metadata (3.3 kB)
+Requirement already satisfied: httpx>=0.25.2 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (0.28.1)
+Requirement already satisfied: orjson>=3.10.1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (3.11.5)
+Requirement already satisfied: requests-toolbelt>=1.0.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (1.0.0)
+Requirement already satisfied: requests>=2.0.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (2.32.5)
+Requirement already satisfied: zstandard>=0.23.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (0.25.0)
+Requirement already satisfied: anyio in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (4.12.0)
+Requirement already satisfied: certifi in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (2025.11.12)
+Requirement already satisfied: httpcore==1.* in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (1.0.9)
+Requirement already satisfied: idna in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (3.11)
+Requirement already satisfied: h11>=0.16 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from httpcore==1.*->httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (0.16.0)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from pydantic<3.0.0,>=2.7.4->langchain) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from pydantic<3.0.0,>=2.7.4->langchain) (0.4.2)
+Collecting langchain-classic<2.0.0,>=1.0.0 (from langchain-community)
+  Using cached langchain_classic-1.0.0-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: SQLAlchemy<3.0.0,>=1.4.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-community) (2.0.45)
+Requirement already satisfied: aiohttp<4.0.0,>=3.8.3 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-community) (3.13.2)
+Requirement already satisfied: dataclasses-json<0.7.0,>=0.6.7 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-community) (0.6.7)
+Collecting pydantic-settings<3.0.0,>=2.10.1 (from langchain-community)
+  Using cached pydantic_settings-2.12.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting httpx-sse<1.0.0,>=0.4.0 (from langchain-community)
+  Using cached httpx_sse-0.4.3-py3-none-any.whl.metadata (9.7 kB)
+Requirement already satisfied: numpy>=1.26.2 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-community) (1.26.4)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.4.0)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (4.0.3)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from aiohttp<4.0.0,>=3.8.3->langchain-community) (1.22.0)
+Requirement already satisfied: marshmallow<4.0.0,>=3.18.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from dataclasses-json<0.7.0,>=0.6.7->langchain-community) (3.26.1)
+Requirement already satisfied: typing-inspect<1,>=0.4.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from dataclasses-json<0.7.0,>=0.6.7->langchain-community) (0.9.0)
+Collecting langchain-text-splitters<2.0.0,>=1.0.0 (from langchain-classic<2.0.0,>=1.0.0->langchain-community)
+  Using cached langchain_text_splitters-1.1.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: python-dotenv>=0.21.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from pydantic-settings<3.0.0,>=2.10.1->langchain-community) (1.2.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core) (2.6.2)
+Requirement already satisfied: greenlet>=1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from SQLAlchemy<3.0.0,>=1.4.0->langchain-community) (3.3.0)
+Requirement already satisfied: mypy-extensions>=0.3.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from typing-inspect<1,>=0.4.0->dataclasses-json<0.7.0,>=0.6.7->langchain-community) (1.1.0)
+Requirement already satisfied: huggingface-hub<1.0.0,>=0.33.4 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-huggingface) (0.36.0)
+Requirement already satisfied: tokenizers<1.0.0,>=0.19.1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-huggingface) (0.22.1)
+Requirement already satisfied: filelock in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (3.20.0)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (2025.10.0)
+Requirement already satisfied: tqdm>=4.42.1 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (4.67.1)
+Requirement already satisfied: groq<1.0.0,>=0.30.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from langchain-groq) (0.37.1)
+Requirement already satisfied: distro<2,>=1.7.0 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from groq<1.0.0,>=0.30.0->langchain-groq) (1.9.0)
+Requirement already satisfied: sniffio in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from groq<1.0.0,>=0.30.0->langchain-groq) (1.3.1)
+Requirement already satisfied: exceptiongroup>=1.0.2 in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from anyio->httpx>=0.25.2->langgraph-sdk<0.4.0,>=0.3.0->langgraph<1.1.0,>=1.0.2->langchain) (1.3.1)
+Requirement already satisfied: colorama in c:\users\sande\anaconda3\envs\plantlyf\lib\site-packages (from tqdm>=4.42.1->huggingface-hub<1.0.0,>=0.33.4->langchain-huggingface) (0.4.6)
+Using cached langchain-1.2.0-py3-none-any.whl (102 kB)
+Using cached langchain_core-1.2.1-py3-none-any.whl (475 kB)
+Using cached langgraph-1.0.5-py3-none-any.whl (157 kB)
+Using cached langgraph_checkpoint-3.0.1-py3-none-any.whl (46 kB)
+Using cached langgraph_prebuilt-1.0.5-py3-none-any.whl (35 kB)
+Using cached langgraph_sdk-0.3.0-py3-none-any.whl (66 kB)
+Using cached langsmith-0.4.59-py3-none-any.whl (413 kB)
+Using cached langchain_community-0.4.1-py3-none-any.whl (2.5 MB)
+Using cached httpx_sse-0.4.3-py3-none-any.whl (9.0 kB)
+Using cached langchain_classic-1.0.0-py3-none-any.whl (1.0 MB)
+Using cached langchain_text_splitters-1.1.0-py3-none-any.whl (34 kB)
+Using cached pydantic_settings-2.12.0-py3-none-any.whl (51 kB)
+Using cached langchain_huggingface-1.2.0-py3-none-any.whl (30 kB)
+Downloading ormsgpack-1.12.1-cp310-cp310-win_amd64.whl (115 kB)
+Installing collected packages: ormsgpack, httpx-sse, pydantic-settings, langsmith, langgraph-sdk, langchain-core, langgraph-checkpoint, langchain-text-splitters, langchain-huggingface, langgraph-prebuilt, langchain-classic, langgraph, langchain-community, langchain
+  Attempting uninstall: langsmith
+    Found existing installation: langsmith 0.1.147
+    Uninstalling langsmith-0.1.147:
+      Successfully uninstalled langsmith-0.1.147
+  Attempting uninstall: langchain-core
+    Found existing installation: langchain-core 0.2.34
+    Uninstalling langchain-core-0.2.34:
+      Successfully uninstalled langchain-core-0.2.34
+  Attempting uninstall: langchain-text-splitters
+    Found existing installation: langchain-text-splitters 0.2.2
+    Uninstalling langchain-text-splitters-0.2.2:
+      Successfully uninstalled langchain-text-splitters-0.2.2
+  Attempting uninstall: langchain-huggingface
+    Found existing installation: langchain-huggingface 0.0.3
+    Uninstalling langchain-huggingface-0.0.3:
+      Successfully uninstalled langchain-huggingface-0.0.3
+  Attempting uninstall: langchain-community
+    Found existing installation: langchain-community 0.2.12
+    Uninstalling langchain-community-0.2.12:
+      Successfully uninstalled langchain-community-0.2.12
+  Attempting uninstall: langchain
+    Found existing installation: langchain 0.2.14
+    Uninstalling langchain-0.2.14:
+      Successfully uninstalled langchain-0.2.14
+
+
+Successfully installed httpx-sse-0.4.3 langchain-1.2.0 langchain-classic-1.0.0 langchain-community-0.4.1 langchain-core-1.2.1 langchain-huggingface-1.2.0 langchain-text-splitters-1.1.0 langgraph-1.0.5 langgraph-checkpoint-3.0.1 langgraph-prebuilt-1.0.5 langgraph-sdk-0.3.0 langsmith-0.4.59 ormsgpack-1.12.1 pydantic-settings-2.12.0
+
