@@ -1,1 +1,0 @@
-# PlantLyf-A-Multimodal-AI-Powered-Tomato-plant-Advisory-Application
